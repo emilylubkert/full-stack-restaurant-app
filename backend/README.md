@@ -1,21 +1,4 @@
-# API Strapi Delivroo clone
-
-
-### Install dependencies
-```bash
-$ yarn
-```
-
-### Run the server
-```bash
-$ yarn dev
-```
-
-### build for production and launch server
-```bash
-$ yarn build
-$ yarn start
-```
+# Strapi
 
 ### Permissions configuration
 
