@@ -1,0 +1,27 @@
+{
+  "connection": "default",
+  "collectionName": "carts",
+  "info": {
+    "name": "cart",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "total": {
+      "type": "decimal"
+    },
+    "dishes": {
+      "type": "json"
+    },
+    "email": {
+      "type": "string"
+    }
+  }
+}

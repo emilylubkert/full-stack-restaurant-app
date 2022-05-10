@@ -1,0 +1,32 @@
+{
+  "defaultConnection": "mongodb_atlas",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-bookshelf",
+      "settings": {
+        "client": "sqlite3",
+        "filename": ".tmp/data.db",
+        "enabled": true,
+        "defaultConnection": "default",
+        "host": "localhost"
+      },
+      "options": {
+        "useNullAsDefault": true
+      }
+    },
+    "mongodb_atlas": {
+      "connector": "strapi-hook-mongoose",
+      "settings": {
+        "client": "mongo",
+        "host": "cluster0.y0bjz.mongodb.net",
+        "port": 27017,
+        "database": "strapi",
+        "username": "dbadmin",
+        "password": "mQLSpX4B2AAV5uhL"
+      },
+      "options": {
+        "ssl": true
+      }
+    }
+  }
+}
